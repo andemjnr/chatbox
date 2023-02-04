@@ -1,0 +1,37 @@
+.chat-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 2px solid brown;
+}
+.header {
+    background-color: brown;
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+}
+.messages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 80%;
+    overflow-y: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.message{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.user{
+    font-weight: bold;
+    margin-right: 10px;
+    color: black;
+}
